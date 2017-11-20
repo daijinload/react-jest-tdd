@@ -1,3 +1,13 @@
 {
-  "presets": ["es2015", "react"]
+  "presets": ["es2015", "react", "babel-preset-power-assert"],
+  "plugins": [
+    ["babel-plugin-espower", {
+      "embedAst": true,
+      "patterns": [
+        "assert.isNull(object, [message])",
+        "assert.same(actual, expected, [message])",
+        "assert.near(actual, expected, delta, [message])"
+      ]
+    }]
+  ]
 }

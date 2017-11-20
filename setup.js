@@ -1,5 +1,5 @@
-require('babel-register')();
 
+// Dom系のセットアップ
 var JSDOM = require('jsdom').JSDOM;
 var dom = new JSDOM(`...`);
 global.window =  dom.window;
