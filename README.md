@@ -1,5 +1,5 @@
-# react-webpack-tdd
-ReactとJestを使ってTDDするサンプルプロジェクト
+# react-tdd
+Reactを使ってTDDするサンプルプロジェクト
 
 下記記事の写景になっています。React16だと動かなかったので、微妙にセットアップとか変えてます。
 (ついでに、chaiをpower-assertに変えました。)

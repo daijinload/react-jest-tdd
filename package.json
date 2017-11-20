@@ -1,7 +1,7 @@
 {
-  "name": "react-jest-tdd",
+  "name": "react-tdd",
   "version": "1.0.0",
-  "description": "ReactとJestを使ってTDDするサンプルプロジェクト",
+  "description": "Reactを使ってTDDするサンプルプロジェクト",
   "main": "index.js",
   "dependencies": {
     "babel-register": "^6.26.0",
@@ -32,12 +32,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daijinload/react-jest-tdd.git"
+    "url": "git+https://github.com/daijinload/react-tdd.git"
   },
   "author": "daijinload@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/daijinload/react-jest-tdd/issues"
+    "url": "https://github.com/daijinload/react-tdd/issues"
   },
-  "homepage": "https://github.com/daijinload/react-jest-tdd#readme"
+  "homepage": "https://github.com/daijinload/react-tdd#readme"
 }
