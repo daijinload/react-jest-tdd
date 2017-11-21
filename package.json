@@ -25,8 +25,8 @@
     "sinon": "^4.1.2"
   },
   "scripts": {
-    "test": "mocha --opts test/mocha.opts --require setup.js test/**/*.js",
-    "watch": "mocha --opts test/mocha.opts --watch --require setup.js test/**/*.js",
+    "test": "mocha test/**/*.js",
+    "watch": "mocha --watch test/**/*.js",
     "q": "quik",
     "gitlog": "git log --pretty=full"
   },

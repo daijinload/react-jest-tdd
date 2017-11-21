@@ -2,3 +2,4 @@
 --reporter spec
 --timeout 5000
 --require babel-register
+--require ./test/setup.js
