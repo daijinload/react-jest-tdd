@@ -1,4 +1,4 @@
---ui bdd
+--ui tdd
 --reporter spec
 --timeout 5000
 --require babel-register

@@ -1,25 +1,25 @@
 
-import React, { Component } from 'react';
- 
+import React, { Component } from 'react'
+
 export class BeerListContainer extends Component {
-  render() {
+  render () {
     return (
       <div>
-        <InputArea/>
-        <BeerList/>
+        <InputArea />
+        <BeerList />
       </div>
-    );
+    )
   }
 }
 
 export class InputArea extends Component {
-  render() {
-    return <input/>
+  render () {
+    return <input />
   }
 }
- 
+
 export class BeerList extends Component {
-  render() {
-    return <ul/>
+  render () {
+    return <ul />
   }
 }
